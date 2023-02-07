@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+  .mask-custom {
+    backdrop-filter: contrast(140%) brightness(100%) saturate(100%) sepia(50%) hue-rotate(0deg) grayscale(0%) invert(0%) blur(0px);
+    mix-blend-mode: lighten;
+    background: rgba(161, 44, 199, 0.31);
+    opacity: 1;
+  }
+</style>
+
+<!-- Background image -->
+<div
+  class="bg-image"
+  style="
+    background-image: url('https://mdbcdn.b-cdn.net/img/new/fluid/nature/018.webp');
+    height: 100vh;
+  "
+>
+  <div class="mask mask-custom"></div>
+</div>
+<!-- Background image -->
+</body>
+</html>
